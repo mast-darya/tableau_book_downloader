@@ -1,0 +1,15 @@
+{
+    "tableau": {
+        "server": "http://192.168.10.192",
+        "api_version": "3.26",
+        "site": "",
+        "verify_ssl": false,
+        "auth": {
+            "type": "password",
+            "username": "admintab",
+            "password": ""
+        }
+    },
+    "project_url": "http://192.168.10.192/#/projects/101",
+    "download_path": "D:/Tableau_Backup"
+}
