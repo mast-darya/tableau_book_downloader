@@ -1,8 +1,18 @@
-Скачивает книги по гуиду проекта. 
-Гуид лежит в  SELECT * FROM public.projects
-(download_workbooks.py - попытка сделать скачивание по ид проекта из урла)
-Запуск:  
+# Tableau Book Downloader
 
-D:\Tableau_book_downloader cd temp
+Скрипт для скачивания всех книг (workbooks) из указанного проекта Tableau Server с использованием REST API (XML).
+Книги с экстрактами скачиваются как .twbx, без экстрактов – как .twb
 
-python test.py 
+## 📦 Требования
+- Python 3.7+
+- Библиотека `requests`
+
+## ⚙️ Установка
+```bash
+git clone https://github.com/mast-darya/tableau_book_downloader.git
+cd tableau_book_downloader
+pip install requests
+```
+## ⚙️ Использование
+```bash
+python test.py
