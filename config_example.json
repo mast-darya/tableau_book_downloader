@@ -1,0 +1,15 @@
+{
+    "tableau": {
+        "server": "http://ваш_сервер",
+        "api_version": "3.26",
+        "site": "",
+        "verify_ssl": false,
+        "auth": {
+            "type": "password",
+            "username": "логин",
+            "password": "пароль можно оставить пустым, тогда будет запрашиваться каждый раз"
+        }
+    },
+    "project_id": "id проекта из URL",
+    "download_path": "D:/Tableau_Backup"
+}
