@@ -16,3 +16,6 @@ pip install requests
 ## ⚙️ Использование
 ```bash
 python test.py
+```
+В поле project_id (ПОКА) нужно передавать luid объекта. 
+Ищется по таблице project через числовой id из url 
